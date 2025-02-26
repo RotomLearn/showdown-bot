@@ -9,7 +9,7 @@ from environs import Env
 import constants
 
 env = Env()
-env.read_env(path="env", recurse=False)
+env.read_env(path="env_1", recurse=False)
 
 
 class CustomFormatter(logging.Formatter):
